@@ -1,3 +1,7 @@
 node_modules
 *.log
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 95c8f63fa5f0c4e58a3628078fda688fc63804f7
