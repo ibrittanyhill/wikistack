@@ -1,0 +1,27 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliannemarik/Pair-Exercise-wikistack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliannemarik/Pair-Exercise-wikistack/issues"
+  },
+  "homepage": "https://github.com/juliannemarik/Pair-Exercise-wikistack#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "html-template-tag": "^2.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "sequelize": "^4.38.1"
+  }
+}
