@@ -15,9 +15,10 @@ app.use('/user', userRouter);
 app.use(express.static(__dirname + "/public"))
 
 
-app.get('/', (req, res) => {
-    console.log(db);
-    res.send(main(''))
+app.get('/', async (req, res) => {
+    const posts = await models.Page.findAll()
+    console.log(posts)
+    res.send(main(posts))
 })
 
 async function init() {
